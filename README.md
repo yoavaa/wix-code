@@ -1,10 +1,10 @@
 # Add a Related Products Section to a Wix Store Product Page with Wix Code
-This repo helps you set up a Related Products section in a Wix Store Product page, using Wix Code. It gives you two methods for relating products to each other. You can either relate products by price range or using a custom relationship you create.
+This repo helps you set up a Related Products section in a Wix Store Product page, using Wix Code. It gives you two methods for relating products to each other. You can either relate products by price range or using a custom relationship you define.
 ## Setup
-This code assumes the following setup. If you have a similar setup on your site and you want to use this code, you'll need to change the IDs listed here to match the ones on your site. 
+This code assumes the following setup. If you have a similar setup on your site and you want to use this code, you'll need to change the IDs listed here to match the ones on your site. You can see a site with this code in action here: http://code-examples.wixsite.com/shop-related-item
 ### Site
-1. A Wix Site and add Wix Stores.
-2. On the Products page, a Strip with the ID:  relatedItems. This is the continer for the related products.
+1. A Wix Site with Wix Stores.
+2. A strip on the Products page with the ID: relatedItems. This is the container for the related products.
 3. A title to the strip indcating this is a Related Products section.
 4. A horizontal repeater in the strip with the ID relatedItemsRepeater. This displays the related products. 
 5. The repeater designed to display related products. Each repeated item has the following elements with their corresponding IDs.
@@ -36,6 +36,3 @@ To create custom product relationships you'll need another collection on your si
 1. Run two parallel queries on the relatedProducts collection. Each query returns the value in the productA or productB columns that relate to the the currently displayed product.
 2. Use the results of both queries to create a list of related products.
 3. Modify the previous code to first display custom related products and only if there are none, to display related products by price. 
-
-## Live Site
-See the site in action here: http://code-examples.wixsite.com/shop-related-item
