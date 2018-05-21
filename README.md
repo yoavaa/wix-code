@@ -11,9 +11,9 @@ This code assumes the following setup. If you have a similar setup on your site 
 
    |Element|ID|
    |-------|--|
-   |text| productName|
-   |image| productImage|
-   |text| productPrice|
+   |text| `productName`|
+   |image| `productImage`|
+   |text| `productPrice`|
 6. The Product Page element with the ID: `productPage`.
 
 ### Databases setup
