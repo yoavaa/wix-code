@@ -7,7 +7,7 @@ This code assumes the following setup. If you have a similar setup on your site 
 2. A strip on the Products page with the ID: `relatedItems`. This is the container for the related products.
 3. A title in the strip indcating it is a Related Products section.
 4. A horizontal repeater in the strip with the ID `relatedItemsRepeater`. This displays the related products. 
-5. The repeater designed to display related products. The repeater item has the following elements with their corresponding IDs.
+5. The repeater designed to display related products. The repeater item has the following elements with their corresponding IDs:
 
    |Element|ID|
    |-------|--|
@@ -17,11 +17,11 @@ This code assumes the following setup. If you have a similar setup on your site 
 6. The Product Page element with the ID: `productPage`.
 
 ### Databases setup
-When you work with Wix Code your Store's products are automatically included in a read-only Products collection in your site.
+When you work with Wix Code, your Store's products are automatically included in a read-only Products collection in your site.
 
 ![Product collection](https://github.com/jeffreya/wix-code/blob/master/related_products_DB.png)
 
-To create custom product relationships you'll need another collection on your site with two reference fields: ProductA and ProductB. For each item, ProductA values reference an item in the Products collection. ProductB values then reference the  product related to the item in ProductA. Here's what it looks like in our site:
+To create custom product relationships you'll need another collection called relatedProducts on your site with two reference fields: ProductA and ProductB. For each item, ProductA values reference an item in the Products collection. ProductB values then reference the  product related to the item in ProductA. Here's what it looks like in our site:
 
 ![relatedProducts collection](https://github.com/jeffreya/wix-code/blob/master/related_products_related.png)
 
