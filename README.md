@@ -37,4 +37,5 @@ To create custom product relationships you'll need another collection on your si
 2. Use the results of both queries to create a list of related products.
 3. Modify the previous code to first display custom related products and only if there are none, to display related products by price. 
 
-#### See the site in action here: http://code-examples.wixsite.com/shop-related-item
+## Live Site
+See the site in action here: http://code-examples.wixsite.com/shop-related-item
