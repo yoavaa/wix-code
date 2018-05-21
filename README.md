@@ -1,7 +1,7 @@
 # Add a Related Products Section to a Wix Store Product Page with Wix Code
 This repository helps you set up a Related Products section in a Wix Store Product page, using Wix Code. It gives you two methods for relating products to each other. You can either relate products by price range or using a custom relationship you define.
 ## Setup
-This code assumes the following setup. It includes code that is added to the Products page as well as collection that stores the custom relationships between products. If you have a similar setup on your site and you want to use this code, you'll need to change the IDs listed here to match the ones on your site. You'll also need to make sure to change the name of the related products collection to match your collection's name. 
+This code assumes the following setup. It includes code that is added to the Products page as well as a collection that stores the custom relationships you define between products. If you have a similar setup on your site and you want to use this code, you'll need to change the IDs listed here to match the ones on your site. You'll also need to make sure to change the name of the related products collection to match your collection's name. 
 
 You can see a site with this code in action here: http://code-examples.wixsite.com/shop-related-item
 ### Page setup
@@ -18,7 +18,7 @@ You can see a site with this code in action here: http://code-examples.wixsite.c
    |text| `productPrice`|
 6. The Product Page element with the ID: `productPage`.
 
-### Databases setup
+### Database setup
 When you work with Wix Code, your Store's products are automatically included in a read-only Products collection in your site.
 
 ![Product collection](https://github.com/jeffreya/wix-code/blob/master/related_products_DB.png)
