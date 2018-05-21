@@ -18,9 +18,11 @@ This code assumes the following setup. If you have a similar setup on your site 
 
 ### Databases
 When you work with Wix Code your Store's products are automatically included in a read-only Products collection in your site.
+
 ![Product collection](https://github.com/jeffreya/wix-code/blob/master/related_products_DB.png)
 
-To create custom product relationships you'll need another collection on your site with two reference fields: ProductA and ProductB. Each field should refer to one product in the ProductA column and its related product in the ProductB column. In our case it lloks like this: 
+To create custom product relationships you'll need another collection on your site with two reference fields: ProductA and ProductB. Each field should refer to one product in the ProductA column and its related product in the ProductB column. In our case it looks like this: 
+
 ![relatedProducts collection](https://github.com/jeffreya/wix-code/blob/master/related_products_related.png)
 
 ## Code Overview
