@@ -18,6 +18,7 @@ This code assumes the following setup. If you have a similar setup on your site 
 ### Databases
 When you work with Wix Code your Store products are automatically included in a read-only Products collection in your site.
 
+![Product collection](https://github.com/jeffreya/wix-code/blob/master/related_products_DB.png)
 
 ## Code Overview
 
