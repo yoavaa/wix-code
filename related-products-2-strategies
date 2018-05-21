@@ -10,7 +10,7 @@ $w.onReady(function () {
 	loadRelatedProducts();
 });
 
-//this function is different from the one with 1 strategy
+//This function is different from the one with 1 strategy
 async function loadRelatedProducts() {
 	let product = await $w('#productPage').getProduct();
 	let relatedProductResults = await Promise.all([
@@ -24,7 +24,7 @@ async function loadRelatedProducts() {
 		showRelatedProducts(relatedProductResults[1]);
 }
 
-//this is the second strategy
+//This is the second strategy
 async function relatedProductsByTable(product) {
 	let productId = product._id;
 
