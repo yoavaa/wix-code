@@ -36,7 +36,7 @@ To create custom product relationships you'll need another collection called `re
 
 ### Custom related products (related-products-2-strategies)
 1. Get the ID of the currently displayed product.
-2. Run two parallel queries on the relatedProducts collection. Each query returns the value in the productA or productB columns that relate to the the currently displayed product.
+2. Run two parallel queries on the relatedProducts collection. Each query returns the value in the productA or productB columns that relate to the currently displayed product.
 3. Use the results of both queries to create a list of related products.
 4. Display the custom related products. If there are none then display related products by price. 
 4. If there are no results, hide the repeater.
