@@ -4,17 +4,17 @@ This repository helps you set up a Related Products section in a Wix Store Produ
 This code assumes the following setup. If you have a similar setup on your site and you want to use this code, you'll need to change the IDs listed here to match the ones on your site. You can see a site with this code in action here: http://code-examples.wixsite.com/shop-related-item
 ### Site setup
 1. A Wix Site with Wix Stores.
-2. A strip on the Products page with the ID: relatedItems. This is the container for the related products.
+2. A strip on the Products page with the ID: `relatedItems`. This is the container for the related products.
 3. A title in the strip indcating it is a Related Products section.
-4. A horizontal repeater in the strip with the ID relatedItemsRepeater. This displays the related products. 
+4. A horizontal repeater in the strip with the ID `relatedItemsRepeater`. This displays the related products. 
 5. The repeater designed to display related products. The repeater item has the following elements with their corresponding IDs.
 
    |Element|ID|
    |-------|--|
-   |Product title| productName|
-   |Product picture| productImage|
-   |Product price| productPage|
-6. The Product Page element with the ID: productPage.
+   |text| productName|
+   |image| productImage|
+   |text| productPrice|
+6. The Product Page element with the ID: `productPage`.
 
 ### Databases setup
 When you work with Wix Code your Store's products are automatically included in a read-only Products collection in your site.
