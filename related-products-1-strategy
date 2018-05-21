@@ -1,5 +1,5 @@
-//You may use the following code to add a related-products functionality on a site with Wix Stores.
-//In this example, we're using 1 strategy for associating related products, but you can see how to easily create any other strategy using the tools provided here.
+//Use the following code to add related products functionality on a site with Wix Stores.
+//In this example we're using 1 strategy for associating related products, but you can see how to easily create any other strategy using the tools provided here.
 //Once you have a Wix Stores site, and enable Code on your editor, you will have access to the Stores collections in your Database folder
 // and you'll be able to use the relevant APIs from your Code panel.
 
