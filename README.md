@@ -28,13 +28,13 @@ To create custom product relationships you'll need another collection called `re
 ![relatedProducts collection](https://github.com/jeffreya/wix-code/blob/master/related_products_related.png)
 
 ## Code Overview
-### Related products by price range
+### Related products by price range (related-products-1-strategy)
 1. Get the ID of the currently displayed product.
 2. Query the Products collection for items whose price falls within a specific range, relative to the current item's price.
 3. Use the repeater to display the first four results of the query.
 4. If there are no results, hide the repeater.
 
-### Custom related products
+### Custom related products (related-products-2-strategies)
 1. Run two parallel queries on the relatedProducts collection. Each query returns the value in the productA or productB columns that relate to the the currently displayed product.
 2. Use the results of both queries to create a list of related products.
 3. Modify the previous code to first display custom related products and only if there are none, to display related products by price. 
