@@ -26,3 +26,9 @@ To create custom product relationships you'll need another collection on your si
 ![relatedProducts collection](https://github.com/jeffreya/wix-code/blob/master/related_products_related.png)
 
 ## Code Overview
+### Related Products by Price Range
+1. Get the ID of the currently diaplyed product.
+2. Query the Products collection for items whose price falls within a specific range, relative to the current item's price.
+3. Use the repeater to display the first four results of the query.
+4. If there are no results, hide the repeater.
+5.
