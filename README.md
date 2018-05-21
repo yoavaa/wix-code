@@ -23,7 +23,7 @@ When you work with Wix Code, your Store's products are automatically included in
 
 ![Product collection](https://github.com/jeffreya/wix-code/blob/master/related_products_DB.png)
 
-To create custom product relationships you'll need another collection called relatedProducts on your site with two reference fields: ProductA and ProductB. For each item, ProductA values reference an item in the Products collection. ProductB values then reference the  product related to the item in ProductA. Here's what it looks like in our site:
+To create custom product relationships you'll need another collection called `relatedProducts` on your site with two reference fields: ProductA and ProductB. For each item, ProductA values reference an item in the Products collection. ProductB values then reference the  product related to the item in ProductA. Here's what it looks like in our site:
 
 ![relatedProducts collection](https://github.com/jeffreya/wix-code/blob/master/related_products_related.png)
 
