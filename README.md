@@ -27,7 +27,7 @@ To create custom product relationships you'll need another collection on your si
 
 ## Code Overview
 ### Related products by price range
-1. Get the ID of the currently displyed product.
+1. Get the ID of the currently displayed product.
 2. Query the Products collection for items whose price falls within a specific range, relative to the current item's price.
 3. Use the repeater to display the first four results of the query.
 4. If there are no results, hide the repeater.
