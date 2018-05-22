@@ -5,6 +5,9 @@ This code assumes the following setup. It includes code that is added to the Pro
 
 You can see a site with this code in action here: http://code-examples.wixsite.com/shop-related-item
 ### Page setup
+
+![Page Setup](https://github.com/yoavaa/wix-code/blob/master/page%20setup.png)
+
 1. A Wix Site with Wix Stores.
 2. A strip on the Products page with the ID: `relatedItems`. This is the container for the related products.
 3. A title in the strip indcating it is a Related Products section.
