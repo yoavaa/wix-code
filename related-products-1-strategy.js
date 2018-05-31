@@ -19,7 +19,7 @@ async function loadRelatedProducts() {
 }
 
 async function relatedProductsByPrice(product) {
-	let relatedByPrice = await wixData.query('Stores/products')
+	let relatedByPrice = await wixData.query('Stores/Products')
 		.between('price', product.price * 0.8, product.price * 1.2)
 		.ne('_id', product._id)
 		.find();
